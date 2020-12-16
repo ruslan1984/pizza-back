@@ -19,7 +19,7 @@ class CreatePizzasTable extends Migration
             $table->string('name');
             $table->string('img');
             $table->float('price');
-            $table->string('description');
+            $table->longText('description');
             $table->date('deletedAt')->nullable()->default(null);
         });
     }
