@@ -9,5 +9,6 @@ DB_USERNAME=<user_name>
 DB_PASSWORD=<password>
 7. php artisan migrate
 8. php artisan db:seed --class=PizzaSeeder
-9. php artisan serve
+9. php artisan key:generate
+10. php artisan serve
 <a  href='http://127.0.0.1:8000'>http://127.0.0.1:8000</a>
